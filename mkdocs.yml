@@ -1,0 +1,7 @@
+site_name: Open Park Project Documentation
+theme:
+  name: material
+  language: en
+
+nav:
+  - Home: index.md
