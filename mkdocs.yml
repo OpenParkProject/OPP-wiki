@@ -3,5 +3,12 @@ theme:
   name: material
   language: en
 
+plugins:
+  - openapi_markdown:
+      enabled: true
+      openapi_file: openapi.yaml
+      output_file: api_doc.md
+
 nav:
   - Home: index.md
+  - APIs: api_doc.md
