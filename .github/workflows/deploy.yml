@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: 
+      - OPP-common-updated
 
 jobs:
   deploy:
@@ -15,11 +18,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.10'
       
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material
+
+      - name: Get OpenAPI spec
+        run: |
+          curl -o docs/openapi.yaml https://raw.githubusercontent.com/OpenParkProject/OPP-common/refs/heads/main/openapi.yaml
       
       - name: Build and Deploy
         run: |
