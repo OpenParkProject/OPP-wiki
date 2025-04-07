@@ -3,6 +3,17 @@ theme:
   name: material
   language: en
 
+plugins: 
+  - mermaid2
+  - build_plantuml:
+      output_format: svg
+      diagram_root: 'docs/assets/plantuml'
+      output_folder: 'out'
+      input_folder: 'src'
+
 nav:
   - Home: index.md
-  - APIs: api.md
+  - APIs: 
+    - API spec: api.md
+    - Authentication: auth.md
+  - Initial Requirements: req.md
