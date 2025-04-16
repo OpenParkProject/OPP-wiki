@@ -1,6 +1,6 @@
 # API Documentation
 
-APIs are specified in [OPP-common](https://github.com/OpenParkProject/OPP-common/openapi.yaml) repository in OpenAPI 3.1 format.
+APIs are specified in [OPP-common](https://raw.githubusercontent.com/OpenParkProject/OPP-common/refs/heads/main/openapi.yaml) repository in OpenAPI 3.1 format.
 The OpenAPI spec is used to generate the API documentation as well as the server and client stubs with request validation and authentication as a single source of truth.
 
 ## OpenAPI spec

@@ -16,4 +16,10 @@ nav:
   - APIs: 
     - API spec: api.md
     - Authentication: auth.md
+  - Server: server.md
+  - Client: client.md
+  - CICDs: CICD.md
   - Initial Requirements: req.md
+  - About:
+    - About: about.md
+    - License: license.md
