@@ -6,7 +6,8 @@ The server is composed of the following components:
 - Web server
 - Application server
 - Authentication provider
-- Database
+- Application Database
+- Authentication provider database
 - Payment Service
 
 ## Web Server
@@ -18,8 +19,11 @@ The Authentication Provider is responsible for managing user authentication and 
 
 Both the Application Server and the Authentication Provider follows the OpenAPI specification defined in the [API section](api.md). The Authentication Provider logic is described in the [Authentication section](auth.md).
 
-## Database
-The database is a PostgreSQL database that stores all the data for the OPP. It is used to store user information, orders, payments, and other data required by the application server.
+## Application server Database
+The database is a PostgreSQL database that stores all the data for the OPP apart from the user information (that are stored in the Auth service db). It is used to store orders, payments, and other data required by the application server.
+
+## Authentication provider Database
+The Authentication Provider database is a PostgreSQL database that stores user information, including usernames, passwords, and other authentication-related data. It is used to manage user accounts and provide authentication services to the application server.
 
 ## Payment Service
 The Payment Service is a microservice that handles payment processing. It communicates with the application server to process payments and send the results back to the application server.
