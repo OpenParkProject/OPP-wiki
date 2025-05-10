@@ -3,11 +3,17 @@
 The OPP server consists of a set of microservices that work together to provide the OPP functionality.
 
 The server is composed of the following components:
+
 - Web server
+
 - Application server
+
 - Authentication provider
+
 - Application Database
+
 - Authentication provider database
+
 - Payment Service
 
 ## Web Server
