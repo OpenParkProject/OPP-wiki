@@ -17,7 +17,15 @@ nav:
     - API spec: api.md
     - Authentication: auth.md
   - Server: server.md
-  - Client: client.md
+  - Client:
+      - Introduction: client/intro.md
+      - Superuser Guide: client/superuser.md
+      - Admin Guide: client/admin.md
+      - Controller Guide: client/controller.md
+      - Driver Guide: client/driver.md
+      - Guest Guide: client/guest.md
+      - Digital Payment Guide: client/digital_payment.md
+      - Totem Guide: client/totem.md
   - CICDs: CICD.md
   - Initial Requirements: req.md
   - About:
