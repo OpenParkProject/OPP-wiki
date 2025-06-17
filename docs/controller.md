@@ -1,72 +1,58 @@
 # 🛂 Controller User Guide
 
-The **Controller Dashboard** is designed for city enforcement staff to efficiently monitor and manage public parking areas.
+The **Controller Dashboard** is built for enforcement personnel to manage parking violations, inspect vehicle sessions, and oversee their assigned zones.
+
+Controllers are essential for maintaining compliance and order in public parking areas.
 
 ---
 
-## 🔍 License Plate Scanning
+> ⚠️ **Zone Assignment Required**  
+> If your account has **not been assigned a zone**, all core features—including license plate lookup, fine issuance, and zone monitoring—will be **disabled**.  
+> Please contact an Admin to be assigned a valid zone before continuing.
 
-Use the built-in scanner to read vehicle license plates:
+![No Zone](imgs/controller/no_zone.png)
+![No Zone Fine](imgs/controller/no_zone_fine.png)
+---
 
-- Scan plates manually or using your device camera
-- Instantly retrieve session status and vehicle details
-- Automatically flag unregistered or invalid parking
+## 🔍 View License Plate Information and Status
 
-> 📷 Supported on mobile devices with camera access.
+Controllers can search and view detailed data about any vehicle:
+
+1. Input or scan a **license plate number**
+![Ticket](imgs/controller/with_ticket.png)
+![No Ticket](imgs/controller/no_ticket.png)
+> OCR only available on mobile phone.
+![OCR](imgs/controller/ocr_not_support.png)
+2. Check if the vehicle is parked legally
+> If a violation is confirmed, you can issue a **fine** directly:
 
 ---
 
-## 🧾 Session Verification
+## 🧾 Add a Fine
+1. Press the **Issue Fine** button after confirming a violation
+2. Set zone and fine amount (or use preset)
+![Issue Fine](imgs/controller/issue_fine.png)
+3. Press the **Confirm Fine** button to finalize
 
-Quickly check if a vehicle has a valid parking session:
-
-- View **session start/end times**, payment status, and zone ID
-- Confirm if a ticket is active or expired
-- Review historical parking logs for the vehicle
-
-> 🕒 Real-time syncing ensures up-to-date status.
 
 ---
 
-## 📸 Violation Recording (Chalking)
+## 💳 View Fine Status
 
-Mark or document violations when a vehicle is in breach:
+Controllers can monitor the status of previously issued fines:
+![Fine Unpaid](imgs/controller/fine_unpaid.png)
+![Fine Paid](imgs/controller/fine_paid.png)
 
-- Record photographic evidence with timestamp
-- Log notes or reasons for chalking
-- Set reminder to re-check after allowed time
-
-> ⚠️ Important: Follow local policies for enforcement duration and evidence.
-
+> Fines statuses will be updated automatically as drivers pay them.
 ---
 
-## 🛠️ Submit Reports & Issue Fines
+## 🗺️ View Assigned Zones
 
-Take immediate action on violations:
+Each controller is assigned to one zone. From  **My Zones**, you can:
 
-- Create and submit **digital violation reports**
-- Generate **electronic fines** linked to license plates
-- Sync reports automatically to the central system
+- See a map of your **assigned zone**
+- View zone name and ID
 
-> 🧾 All actions are logged and auditable for transparency.
-
+![View Zone](imgs/controller/view_zone.png)
 ---
-
-## 🗺️ Navigation & Zone Awareness
-
-Controllers can:
-
-- View a **map of current parking zones**
-- Navigate between areas and locate **Totems**
-- Access parking rules and zone-specific restrictions
-
----
-
-### 🔐 Access Control
-
-Only verified personnel with controller access can use these features. Please ensure your account is up to date and secured with 2FA.
-
----
-
-Need assistance? Visit the [Controller Help Center](https://example.com/controller-help) or contact admin support.
 

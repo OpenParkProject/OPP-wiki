@@ -14,13 +14,13 @@ The **Open Park Project** app delivers a comprehensive set of features designed 
 
 ### 📱 Mobile Interface (Android Example)
 
-![Mobile Interface](/img/on%20android.png)
+![Mobile Interface](imgs/payment/login_mobile.png)
 
 ---
 
-### 💻 Web Interface (Browser Example)
+### 💻 Web Interface (Edge Example)
 
-![Web Interface](/img/on%20web%20browser.png)
+![Web Interface](imgs/payment/login.png)
 
 ---
 
@@ -28,16 +28,20 @@ The **Open Park Project** app delivers a comprehensive set of features designed 
 
 The application provides tailored interfaces and tools for each role:
 
-- 👤 **Drivers**:  
-  Easily search for parking, manage license plates, pay fees, and view ticket history
+- 🚘 **[Drivers](driver.md): [Download Guide](drivers.pdf)**  
+  Purchase tickets, manage parking sessions, and pay fines.
 
-- 🛂 **Controllers**:  
-  Validate parking sessions, scan license plates, and issue fines
+- 🛂 **[Controllers](controller.md): [Download Guide](controllers.pdf)** 
+  Enforce parking rules, issue fines in assigned zones, and monitor vehicle compliance.
 
-- 🛠️ **Admins**:  
-  Manage controller accounts, configure zones, monitor fines, and assign users
+- 🛠️ **[Admins](admin.md) :[Download Guide](admins.pdf)**
+  Configure zones, manage user accounts, and set up totems for secure payments.
 
+- 🛡️ **[Superusers](superuser.md): [Download Guide](superusers.pdf)**
+  Provide global oversight, manage all user roles, and access system statistics.
+
+- 🏪 **[Visitors](visitor.md): [Download Guide](visitors.pdf)**
+  Purchase tickets without registration, only by entering license plates.
 ---
-
 
 With its intuitive interface and robust features, the Open Park Project app brings smart parking management to your fingertips.
