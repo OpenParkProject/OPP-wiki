@@ -21,7 +21,7 @@ OPP is built using a microservices architecture, deployed as stateless container
 
 - Check the [API Documentation](api.md) for integration details
 - Read the [Requirements Document](req.md) to understand project scope
-- Explore [Server](server.md) and [Client](client.md) implementations
+- Explore [Server](server.md) and [Client](client/intro.md) implementations
 
 ## Project Status
 
