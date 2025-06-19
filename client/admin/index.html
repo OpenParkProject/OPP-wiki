@@ -1,0 +1,1164 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../superuser/">
+      
+      
+        <link rel="next" href="../controller/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Admin Guide - Open Park Project Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#admin-user-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Open Park Project Documentation" class="md-header__button md-logo" aria-label="Open Park Project Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Open Park Project Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Admin Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Open Park Project Documentation" class="md-nav__button md-logo" aria-label="Open Park Project Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Open Park Project Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    APIs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            APIs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../auth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Authentication
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Server
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Client
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Client
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../superuser/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Superuser Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Admin Guide
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Guide
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧾 Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-manage-user-accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      👤 Create &amp; Manage User Accounts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👤 Create &amp; Manage User Accounts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admin-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Admin management:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controller-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller management:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-a-new-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      ➕ Add a New User
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="➕ Add a New User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add Admin:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add Controller:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✏️Edit a User
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#login-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗝️ Login a User
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❌ Delete a User
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="❌ Delete a User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit Admin:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit Controller:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-new-parking-zones" class="md-nav__link">
+    <span class="md-ellipsis">
+      ➕ Create New Parking Zones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generate-otp-and-install-totem-and-view-totems" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏧Generate OTP and Install Totem and View Totems
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../controller/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controller Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../driver/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Driver Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guest Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital_payment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Digital Payment Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../totem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Totem Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CICD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CICDs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../req/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initial Requirements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧾 Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-manage-user-accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      👤 Create &amp; Manage User Accounts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👤 Create &amp; Manage User Accounts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admin-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Admin management:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controller-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller management:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-a-new-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      ➕ Add a New User
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="➕ Add a New User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add Admin:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add Controller:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✏️Edit a User
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#login-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗝️ Login a User
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❌ Delete a User
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="❌ Delete a User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit Admin:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit Controller:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-new-parking-zones" class="md-nav__link">
+    <span class="md-ellipsis">
+      ➕ Create New Parking Zones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generate-otp-and-install-totem-and-view-totems" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏧Generate OTP and Install Totem and View Totems
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="admin-user-guide">🛠️ Admin User Guide</h1>
+<h2 id="overview">🧾 Overview</h2>
+<p>The <strong>Admin Dashboard</strong> empowers system administrators to configure zones, manage user accounts, and maintain smart parking infrastructure.</p>
+<p>Admins play a central role in managing roles, zones, totems, and system security.</p>
+<p>An Admin is intended as a user who can manage a group of zones, together with their respective controllers, and is responsible for the management of the parking system in multiple areas.
+An example could be a city parking authority or a large parking operator managing multiple locations.
+Multiple admins for same zones are allowed.</p>
+<hr />
+<h2 id="create-manage-user-accounts">👤 Create &amp; Manage User Accounts</h2>
+<p>Admins can create or manage accounts for:</p>
+<ul>
+<li>✅ <strong>Controller</strong></li>
+<li>✅ <strong>Admin</strong></li>
+</ul>
+<p>However, they can associate those account only to the zones they manage.</p>
+<h4 id="admin-management">Admin management:</h4>
+<p><img alt="Admin" src="../../imgs/admin/admin.png" /></p>
+<h4 id="controller-management">Controller management:</h4>
+<p><img alt="Controller" src="../../imgs/admin/controller.png" /></p>
+<h3 id="add-a-new-user">➕ Add a New User</h3>
+<ol>
+<li>Press the <strong>Add new user(admin, controller)</strong> button on the below.</li>
+<li>Fill in the form with the required user information:</li>
+<li>Select the zone you want to assign the user to (if applicable).</li>
+<li>Click <strong>Create</strong></li>
+</ol>
+<h4 id="add-admin">Add Admin:</h4>
+<p><img alt="Add Admin" src="../../imgs/admin/add_admin.png" /></p>
+<h4 id="add-controller">Add Controller:</h4>
+<p><img alt="Add Controller" src="../../imgs/admin/add_controller.png" /></p>
+<blockquote>
+<p>You must have at least one zone available for assignment, otherwise some functions of the unassigned Controller accounts will be unavailable.</p>
+</blockquote>
+<hr />
+<h3 id="edit-a-user">✏️Edit a User</h3>
+<p>Click the <strong>Edit</strong> button on the right side of the specified account (the first button) to edit the specified account to assign a new zone.</p>
+<h3 id="login-a-user">🗝️ Login a User</h3>
+<p>Click the <strong>Enter</strong> button on the right side of the specified account (the second button) to log in to the specified account.</p>
+<h3 id="delete-a-user">❌ Delete a User</h3>
+<p>Click the <strong>Delete</strong> button on the right side of the specified account (the third button) to delete the specified account.</p>
+<p><img alt="Edit, Login and Delete User" src="../../imgs/admin/edit_login_delete.png" /></p>
+<h4 id="edit-admin">Edit Admin:</h4>
+<p><img alt="Edit Admin" src="../../imgs/admin/edit_admin.png" /></p>
+<h4 id="edit-controller">Edit Controller:</h4>
+<h2 id="_1"><img alt="Edit Controller" src="../../imgs/admin/edit_controller.png" /></h2>
+<h2 id="create-new-parking-zones">➕ Create New Parking Zones</h2>
+<p><img alt="Zone" src="../../imgs/admin/zone.png" />
+Define zones for precise parking control:
+1. Assign <strong>zone name</strong>
+2. Fill in <strong>zone pricing configuration</strong>
+<img alt="Add Zone" src="../../imgs/admin/add_zone.png" />
+3. Set <strong>location boundaries</strong>
+<img alt="Draw Zone" src="../../imgs/admin/draw_zone.png" />
+4. Press <strong>Create Zone</strong> to create the zone</p>
+<blockquote>
+<p>🗺️ After successful creation, you can view the zone boundaries on the map and set whether the zone is active. Inactive zones will not participate in allocation and cannot be selected by other users or non-users.
+<img alt="See on Map" src="../../imgs/admin/see_on_map.png" />
+You can also see all zones on the map by pressing <strong>View all on map</strong>.
+<img alt="All Zones" src="../../imgs/admin/all_zone.png" /></p>
+</blockquote>
+<hr />
+<h2 id="generate-otp-and-install-totem-and-view-totems">🏧Generate OTP and Install Totem and View Totems</h2>
+<p><img alt="OTP" src="../../imgs/admin/no_otp.png" />
+Press <strong>Totem setup instructions</strong> to view the guide.
+<img alt="Totem Setup Instructions" src="../../imgs/admin/totem_setup_instructions.png" /></p>
+<blockquote>
+<p>See the <a href="../totem/">Totem Guide</a> for detailed instructions.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
